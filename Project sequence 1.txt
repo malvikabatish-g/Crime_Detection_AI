@@ -1,0 +1,51 @@
+Phase 1: Dataset Preparation
+
+✅ 120 videos collected
+✅ 6 classes finalized
+Fight
+Abuse
+Accident
+Burglary
+Snatching
+Normal
+✅ One ZIP per class uploaded to Drive
+⏳ Extract ZIPs
+⏳ Split videos (14 train / 3 val / 3 test per class)
+
+Phase 2: Frame Extraction
+
+Extract at 1 FPS
+Resize to 224×224
+Save frames to Drive
+Verify frame counts
+
+
+Phase 3: Baseline Model
+
+Train MobileNetV2
+
+Generate:
+Accuracy
+Precision
+Recall
+F1-score
+Confusion Matrix
+
+Phase 4: Improved Model
+
+Train EfficientNetB0
+
+Compare against MobileNetV2
+
+Phase 5: Video Inference
+
+Predict on full videos
+Generate timestamps
+Produce a crime report
+
+Phase 6: Deployment
+
+Flask app
+Docker container
+GitHub
+Jenkins pipeline
